@@ -69,6 +69,13 @@ p {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  #hamburger-btn, #hamburger-items
+  {
+    visibility: hidden;
+  }
+}
+
 /* Tablets*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
